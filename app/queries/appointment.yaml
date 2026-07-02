@@ -1,0 +1,88 @@
+get_patient_history: |
+  SELECT
+      a.appointment_id,
+      p.patient_id,
+      p.name AS patient_name,
+      d.doctor_id,
+      d.name AS doctor_name,
+      d.department,
+      a.appointment_date,
+      a.appointment_time,
+      a.status,
+      a.diagnosis,
+      a.notes
+  FROM appointments a
+  INNER JOIN patients p
+      ON a.patient_id = p.patient_id
+  INNER JOIN doctors d
+      ON a.doctor_id = d.doctor_id
+  WHERE a.patient_id = ?
+  ORDER BY
+      a.appointment_date DESC,
+      a.appointment_time DESC;
+
+
+search_patient_history: |
+  SELECT
+      a.appointment_id,
+      p.patient_id,
+      p.name AS patient_name,
+      d.doctor_id,
+      d.name AS doctor_name,
+      d.department,
+      a.appointment_date,
+      a.appointment_time,
+      a.status,
+      a.diagnosis,
+      a.notes
+  FROM patients p
+  INNER JOIN appointments a
+      ON a.patient_id = p.patient_id
+  INNER JOIN doctors d
+      ON a.doctor_id = d.doctor_id
+  WHERE {where_clause}
+  ORDER BY
+      a.appointment_date DESC,
+      a.appointment_time DESC
+
+
+patient_exists: |
+  SELECT 1
+  FROM patients
+  WHERE patient_id = ?
+
+
+doctor_exists: |
+  SELECT 1
+  FROM doctors
+  WHERE doctor_id = ?
+
+
+create_appointment: |
+  INSERT INTO appointments
+  (
+      patient_id,
+      doctor_id,
+      appointment_date,
+      appointment_time,
+      status,
+      notes
+  )
+  VALUES
+  (
+      ?, ?, ?, ?, ?, ?
+  )
+
+
+appointment_exists: |
+  SELECT 1
+  FROM appointments
+  WHERE appointment_id = ?
+
+
+update_appointment: |
+  UPDATE appointments
+  SET
+      {set_clause}
+  WHERE
+      {where_clause}

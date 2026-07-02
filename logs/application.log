@@ -1,0 +1,459 @@
+2026-07-01 08:55:28,379 | INFO | Incoming Request -> GET /docs
+2026-07-01 08:55:28,379 | INFO | Completed Request -> GET /docs | Status: 200 | Execution Time: 0.0007 sec
+2026-07-01 08:55:28,679 | INFO | Incoming Request -> GET /openapi.json
+2026-07-01 08:55:28,696 | INFO | Completed Request -> GET /openapi.json | Status: 200 | Execution Time: 0.0173 sec
+2026-07-01 09:06:32,513 | INFO | Incoming Request -> GET /docs
+2026-07-01 09:06:32,514 | INFO | Completed Request -> GET /docs | Status: 200 | Execution Time: 0.0007 sec
+2026-07-01 09:06:32,831 | INFO | Incoming Request -> GET /openapi.json
+2026-07-01 09:06:32,831 | INFO | Completed Request -> GET /openapi.json | Status: 200 | Execution Time: 0.0003 sec
+2026-07-01 09:07:22,455 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 09:07:22,460 | INFO | 
+            Patient History Search Request
+            Patient ID : 10
+            Doctor ID : None
+            Department : None
+            Status : None
+            Start Date : None
+            End Date : None
+            
+2026-07-01 09:07:22,460 | INFO | Validation successful.
+2026-07-01 09:07:22,460 | INFO | Executing patient history search query.
+2026-07-01 09:07:22,460 | INFO | 
+                    Searching patient history
+
+                    Patient ID : 10
+                    Doctor ID : None
+                    Department : None
+                    Status : None
+                    Start Date : None
+                    End Date : None
+                    
+2026-07-01 09:07:22,461 | INFO | Patient history search completed successfully. Records Found : 5
+2026-07-01 09:07:22,461 | INFO | Repository returned 5 records.
+2026-07-01 09:07:22,461 | INFO | Patient history search completed successfully.
+2026-07-01 09:07:22,461 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.006 sec
+2026-07-01 09:08:06,218 | INFO | Incoming Request -> GET /docs
+2026-07-01 09:08:06,219 | INFO | Completed Request -> GET /docs | Status: 200 | Execution Time: 0.0007 sec
+2026-07-01 09:08:06,461 | INFO | Incoming Request -> GET /openapi.json
+2026-07-01 09:08:06,462 | INFO | Completed Request -> GET /openapi.json | Status: 200 | Execution Time: 0.0014 sec
+2026-07-01 09:08:47,297 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 09:08:47,298 | INFO | 
+            Patient History Search Request
+            Patient ID : 10
+            Doctor ID : None
+            Department : None
+            Status : None
+            Start Date : 2026-02-27
+            End Date : 2026-04-30
+            
+2026-07-01 09:08:47,299 | INFO | Validation successful.
+2026-07-01 09:08:47,299 | INFO | Executing patient history search query.
+2026-07-01 09:08:47,299 | INFO | 
+                    Searching patient history
+
+                    Patient ID : 10
+                    Doctor ID : None
+                    Department : None
+                    Status : None
+                    Start Date : 2026-02-27
+                    End Date : 2026-04-30
+                    
+2026-07-01 09:08:47,299 | INFO | Patient history search completed successfully. Records Found : 2
+2026-07-01 09:08:47,299 | INFO | Repository returned 2 records.
+2026-07-01 09:08:47,299 | INFO | Patient history search completed successfully.
+2026-07-01 09:08:47,299 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0023 sec
+2026-07-01 13:37:11,968 | INFO | Incoming Request -> GET /docs
+2026-07-01 13:37:11,969 | INFO | Completed Request -> GET /docs | Status: 200 | Execution Time: 0.0006 sec
+2026-07-01 13:37:12,204 | INFO | Incoming Request -> GET /openapi.json
+2026-07-01 13:37:12,220 | INFO | Completed Request -> GET /openapi.json | Status: 200 | Execution Time: 0.0161 sec
+2026-07-01 13:37:40,917 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 13:37:40,920 | INFO | 
+            Patient History Search Request
+            Patient ID : None
+            Doctor ID : None
+            Department : None
+            Status : None
+            Start Date : 2026-01-01
+            End Date : 2026-12-31
+            
+2026-07-01 13:37:40,920 | INFO | Validation successful.
+2026-07-01 13:37:40,920 | INFO | Executing patient history search query.
+2026-07-01 13:37:40,920 | INFO | 
+                Searching patient history
+
+                Patient ID : None
+                Doctor ID : None
+                Department : None
+                Status : None
+                Start Date : 2026-01-01
+                End Date : 2026-12-31
+                
+2026-07-01 13:37:40,922 | INFO | Patient history search completed successfully. Records Found : 48
+2026-07-01 13:37:40,922 | INFO | Repository returned 48 records.
+2026-07-01 13:37:40,922 | INFO | Patient history search completed successfully.
+2026-07-01 13:37:40,923 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0058 sec
+2026-07-01 13:38:02,592 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 13:38:02,594 | INFO | 
+            Patient History Search Request
+            Patient ID : None
+            Doctor ID : 4
+            Department : None
+            Status : completed
+            Start Date : 2026-01-01
+            End Date : 2026-12-31
+            
+2026-07-01 13:38:02,594 | INFO | Validation successful.
+2026-07-01 13:38:02,594 | INFO | Executing patient history search query.
+2026-07-01 13:38:02,594 | INFO | 
+                Searching patient history
+
+                Patient ID : None
+                Doctor ID : 4
+                Department : None
+                Status : completed
+                Start Date : 2026-01-01
+                End Date : 2026-12-31
+                
+2026-07-01 13:38:02,595 | INFO | Patient history search completed successfully. Records Found : 4
+2026-07-01 13:38:02,595 | INFO | Repository returned 4 records.
+2026-07-01 13:38:02,595 | INFO | Patient history search completed successfully.
+2026-07-01 13:38:02,595 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0039 sec
+2026-07-01 13:38:25,929 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 13:38:25,932 | INFO | 
+            Patient History Search Request
+            Patient ID : None
+            Doctor ID : 4
+            Department : None
+            Status : completed
+            Start Date : 2026-08-13
+            End Date : 2026-12-31
+            
+2026-07-01 13:38:25,932 | INFO | Validation successful.
+2026-07-01 13:38:25,932 | INFO | Executing patient history search query.
+2026-07-01 13:38:25,932 | INFO | 
+                Searching patient history
+
+                Patient ID : None
+                Doctor ID : 4
+                Department : None
+                Status : completed
+                Start Date : 2026-08-13
+                End Date : 2026-12-31
+                
+2026-07-01 13:38:25,933 | INFO | Patient history search completed successfully. Records Found : 0
+2026-07-01 13:38:25,933 | INFO | Repository returned 0 records.
+2026-07-01 13:38:25,933 | WARNING | No visit history found for Patient ID : None
+2026-07-01 13:38:25,933 | INFO | Patient history search completed successfully.
+2026-07-01 13:38:25,933 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0042 sec
+2026-07-01 13:38:31,434 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 13:38:31,436 | INFO | 
+            Patient History Search Request
+            Patient ID : None
+            Doctor ID : 4
+            Department : None
+            Status : completed
+            Start Date : 2026-01-13
+            End Date : 2026-12-31
+            
+2026-07-01 13:38:31,436 | INFO | Validation successful.
+2026-07-01 13:38:31,436 | INFO | Executing patient history search query.
+2026-07-01 13:38:31,436 | INFO | 
+                Searching patient history
+
+                Patient ID : None
+                Doctor ID : 4
+                Department : None
+                Status : completed
+                Start Date : 2026-01-13
+                End Date : 2026-12-31
+                
+2026-07-01 13:38:31,436 | INFO | Patient history search completed successfully. Records Found : 4
+2026-07-01 13:38:31,436 | INFO | Repository returned 4 records.
+2026-07-01 13:38:31,437 | INFO | Patient history search completed successfully.
+2026-07-01 13:38:31,437 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0029 sec
+2026-07-01 13:38:56,375 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 13:38:56,376 | INFO | Completed Request -> POST /appointments/history | Status: 422 | Execution Time: 0.0018 sec
+2026-07-01 13:39:12,715 | INFO | Incoming Request -> POST /appointments/history
+2026-07-01 13:39:12,716 | INFO | 
+            Patient History Search Request
+            Patient ID : None
+            Doctor ID : 4
+            Department : None
+            Status : completed
+            Start Date : 2026-05-13
+            End Date : 2026-06-10
+            
+2026-07-01 13:39:12,717 | INFO | Validation successful.
+2026-07-01 13:39:12,717 | INFO | Executing patient history search query.
+2026-07-01 13:39:12,717 | INFO | 
+                Searching patient history
+
+                Patient ID : None
+                Doctor ID : 4
+                Department : None
+                Status : completed
+                Start Date : 2026-05-13
+                End Date : 2026-06-10
+                
+2026-07-01 13:39:12,717 | INFO | Patient history search completed successfully. Records Found : 1
+2026-07-01 13:39:12,717 | INFO | Repository returned 1 records.
+2026-07-01 13:39:12,717 | INFO | Patient history search completed successfully.
+2026-07-01 13:39:12,717 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0017 sec
+2026-07-02 16:31:27,646 | INFO | Incoming Request -> GET /docs
+2026-07-02 16:31:27,648 | INFO | Completed Request -> GET /docs | Status: 200 | Execution Time: 0.0013 sec
+2026-07-02 16:31:27,816 | INFO | Incoming Request -> GET /openapi.json
+2026-07-02 16:31:27,830 | INFO | Completed Request -> GET /openapi.json | Status: 200 | Execution Time: 0.0145 sec
+2026-07-02 16:46:39,334 | INFO | Incoming Request -> GET /docs
+2026-07-02 16:46:39,334 | INFO | Completed Request -> GET /docs | Status: 200 | Execution Time: 0.0007 sec
+2026-07-02 16:46:39,538 | INFO | Incoming Request -> GET /openapi.json
+2026-07-02 16:46:39,560 | INFO | Completed Request -> GET /openapi.json | Status: 200 | Execution Time: 0.0218 sec
+2026-07-02 16:46:57,173 | INFO | Incoming Request -> POST /auth/login
+2026-07-02 16:46:57,175 | INFO | Login attempt for username : admin
+2026-07-02 16:46:57,176 | ERROR | Unhandled exception occurred.
+Traceback (most recent call last):
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/lucifer/AllWebProjects/python_fast_API/patient-visit-history/app/main.py", line 36, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 2531, in app
+    await route.handle(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 1700, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 2586, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 1720, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 1239, in handle
+    await app(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2592, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/lucifer/anaconda3/envs/hospital/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/lucifer/AllWebProjects/python_fast_API/patient-visit-history/app/routers/auth.py", line 33, in login
+    return service.login(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/lucifer/AllWebProjects/python_fast_API/patient-visit-history/app/services/auth_service.py", line 25, in login
+    user = self.repository.get_user_by_username(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/lucifer/AllWebProjects/python_fast_API/patient-visit-history/app/repositories/auth_repository.py", line 18, in get_user_by_username
+    query = queries["get_user_by_username"]
+            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'get_user_by_username'
+2026-07-02 16:50:34,280 | INFO | Incoming Request -> POST /auth/login
+2026-07-02 16:50:34,290 | INFO | Login attempt for username : admin
+2026-07-02 16:50:34,290 | INFO | Fetching user 'admin' from database.
+2026-07-02 16:50:34,291 | INFO | User 'admin' found.
+2026-07-02 16:50:34,300 | INFO | JWT generated successfully for 'admin'.
+2026-07-02 16:50:34,301 | INFO | Completed Request -> POST /auth/login | Status: 200 | Execution Time: 0.0219 sec
+2026-07-02 16:53:48,728 | INFO | Incoming Request -> GET /docs
+2026-07-02 16:53:48,729 | INFO | Completed Request -> GET /docs | Status: 200 | Execution Time: 0.0013 sec
+2026-07-02 16:53:48,965 | INFO | Incoming Request -> GET /openapi.json
+2026-07-02 16:53:48,979 | INFO | Completed Request -> GET /openapi.json | Status: 200 | Execution Time: 0.0138 sec
+2026-07-02 16:53:57,536 | INFO | Incoming Request -> POST /appointments/history
+2026-07-02 16:53:57,540 | INFO | Completed Request -> POST /appointments/history | Status: 401 | Execution Time: 0.0041 sec
+2026-07-02 17:02:53,429 | INFO | Incoming Request -> POST /auth/login
+2026-07-02 17:02:53,437 | INFO | Login attempt for username : admin
+2026-07-02 17:02:53,437 | INFO | Fetching user 'admin' from database.
+2026-07-02 17:02:53,437 | INFO | User 'admin' found.
+2026-07-02 17:02:53,668 | INFO | JWT generated successfully for 'admin'.
+2026-07-02 17:02:53,669 | INFO | Completed Request -> POST /auth/login | Status: 200 | Execution Time: 0.2393 sec
+2026-07-02 17:03:22,228 | INFO | Incoming Request -> POST /auth/login
+2026-07-02 17:03:22,231 | INFO | Login attempt for username : admin
+2026-07-02 17:03:22,231 | INFO | Fetching user 'admin' from database.
+2026-07-02 17:03:22,231 | INFO | User 'admin' found.
+2026-07-02 17:03:22,432 | WARNING | Incorrect password for user 'admin'.
+2026-07-02 17:03:22,434 | WARNING | Invalid username or password.
+2026-07-02 17:03:22,434 | INFO | Completed Request -> POST /auth/login | Status: 401 | Execution Time: 0.2063 sec
+2026-07-02 17:03:43,455 | INFO | Incoming Request -> POST /auth/login
+2026-07-02 17:03:43,457 | INFO | Login attempt for username : admin
+2026-07-02 17:03:43,457 | INFO | Fetching user 'admin' from database.
+2026-07-02 17:03:43,457 | INFO | User 'admin' found.
+2026-07-02 17:03:43,655 | INFO | JWT generated successfully for 'admin'.
+2026-07-02 17:03:43,655 | INFO | Completed Request -> POST /auth/login | Status: 200 | Execution Time: 0.1999 sec
+2026-07-02 17:04:16,904 | INFO | Incoming Request -> POST /appointments/history
+2026-07-02 17:04:16,905 | INFO | 
+            Patient History Search Request
+            Patient ID : 10
+            Doctor ID : None
+            Department : None
+            Status : None
+            Start Date : 2026-01-01
+            End Date : 2026-12-31
+            
+2026-07-02 17:04:16,905 | INFO | Validation successful.
+2026-07-02 17:04:16,906 | INFO | Executing patient history search query.
+2026-07-02 17:04:16,906 | INFO | 
+                Searching patient history
+
+                Patient ID : 10
+                Doctor ID : None
+                Department : None
+                Status : None
+                Start Date : 2026-01-01
+                End Date : 2026-12-31
+                
+2026-07-02 17:04:16,906 | INFO | Patient history search completed successfully. Records Found : 4
+2026-07-02 17:04:16,906 | INFO | Repository returned 4 records.
+2026-07-02 17:04:16,906 | INFO | Patient history search completed successfully.
+2026-07-02 17:04:16,906 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0023 sec
+2026-07-02 17:04:26,740 | INFO | Incoming Request -> POST /appointments/history
+2026-07-02 17:04:26,741 | INFO | 
+            Patient History Search Request
+            Patient ID : None
+            Doctor ID : None
+            Department : None
+            Status : None
+            Start Date : 2026-01-01
+            End Date : 2026-12-31
+            
+2026-07-02 17:04:26,741 | INFO | Validation successful.
+2026-07-02 17:04:26,741 | INFO | Executing patient history search query.
+2026-07-02 17:04:26,742 | INFO | 
+                Searching patient history
+
+                Patient ID : None
+                Doctor ID : None
+                Department : None
+                Status : None
+                Start Date : 2026-01-01
+                End Date : 2026-12-31
+                
+2026-07-02 17:04:26,742 | INFO | Patient history search completed successfully. Records Found : 46
+2026-07-02 17:04:26,742 | INFO | Repository returned 46 records.
+2026-07-02 17:04:26,742 | INFO | Patient history search completed successfully.
+2026-07-02 17:04:26,743 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.003 sec
+2026-07-02 17:04:54,693 | INFO | Incoming Request -> POST /appointments/history
+2026-07-02 17:04:54,695 | INFO | 
+            Patient History Search Request
+            Patient ID : 10
+            Doctor ID : 1
+            Department : Cardiology
+            Status : completed
+            Start Date : 2026-01-01
+            End Date : 2026-12-31
+            
+2026-07-02 17:04:54,695 | INFO | Validation successful.
+2026-07-02 17:04:54,695 | INFO | Executing patient history search query.
+2026-07-02 17:04:54,695 | INFO | 
+                Searching patient history
+
+                Patient ID : 10
+                Doctor ID : 1
+                Department : Cardiology
+                Status : completed
+                Start Date : 2026-01-01
+                End Date : 2026-12-31
+                
+2026-07-02 17:04:54,695 | INFO | Patient history search completed successfully. Records Found : 2
+2026-07-02 17:04:54,695 | INFO | Repository returned 2 records.
+2026-07-02 17:04:54,695 | INFO | Patient history search completed successfully.
+2026-07-02 17:04:54,695 | INFO | Completed Request -> POST /appointments/history | Status: 200 | Execution Time: 0.0026 sec
+2026-07-02 17:05:05,670 | INFO | Incoming Request -> POST /appointments/history
+2026-07-02 17:05:05,671 | INFO | 
+            Patient History Search Request
+            Patient ID : 10
+            Doctor ID : None
+            Department : None
+            Status : None
+            Start Date : 2026-12-31
+            End Date : 2026-01-01
+            
+2026-07-02 17:05:05,671 | WARNING | Invalid date range for Patient ID : 10
+2026-07-02 17:05:05,671 | WARNING | Start date cannot be greater than end date.
+2026-07-02 17:05:05,671 | INFO | Completed Request -> POST /appointments/history | Status: 400 | Execution Time: 0.0016 sec
+2026-07-02 17:05:56,150 | INFO | Incoming Request -> POST /appointments/appointments
+2026-07-02 17:05:56,154 | INFO | Create Appointment API called.
+2026-07-02 17:05:56,154 | INFO | 
+            Appointment Booking Request
+
+            Patient ID : 10
+            Doctor ID : 4
+            Appointment Date : 2026-08-15
+            Appointment Time : 11:30:00
+            Status : scheduled
+            
+2026-07-02 17:05:56,154 | INFO | Creating appointment for Patient ID : 10
+2026-07-02 17:05:56,158 | INFO | Appointment created successfully. Appointment ID : 51
+2026-07-02 17:05:56,158 | INFO | Appointment booked successfully. Appointment ID : 51
+2026-07-02 17:05:56,158 | INFO | Appointment created successfully.
+2026-07-02 17:05:56,158 | INFO | Completed Request -> POST /appointments/appointments | Status: 201 | Execution Time: 0.0082 sec
+2026-07-02 17:06:33,681 | INFO | Incoming Request -> PUT /appointments/appointments/52
+2026-07-02 17:06:33,686 | INFO | PUT /appointments/52 called.
+2026-07-02 17:06:33,686 | INFO | 
+            Appointment Update Request
+
+            Appointment ID : 52
+            Status : completed
+            Diagnosis : Patient recovered completely
+            Notes : No further treatment required
+            
+2026-07-02 17:06:33,686 | WARNING | Appointment 52 does not exist.
+2026-07-02 17:06:33,686 | ERROR | Update Appointment API failed for Appointment ID : 52
+Traceback (most recent call last):
+  File "/home/lucifer/lucifer/AllWebProjects/python_fast_API/patient-visit-history/app/routers/appointment.py", line 69, in update_appointment
+    response = service.update_appointment(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lucifer/lucifer/AllWebProjects/python_fast_API/patient-visit-history/app/services/appointment_service.py", line 159, in update_appointment
+    raise AppointmentNotFoundException(appointment_id)
+app.utils.exceptions.AppointmentNotFoundException: Appointment with ID 52 not found.
+2026-07-02 17:06:33,688 | WARNING | Appointment with ID 52 not found.
+2026-07-02 17:06:33,689 | INFO | Completed Request -> PUT /appointments/appointments/52 | Status: 404 | Execution Time: 0.008 sec
+2026-07-02 17:06:40,238 | INFO | Incoming Request -> PUT /appointments/appointments/51
+2026-07-02 17:06:40,240 | INFO | PUT /appointments/51 called.
+2026-07-02 17:06:40,240 | INFO | 
+            Appointment Update Request
+
+            Appointment ID : 51
+            Status : completed
+            Diagnosis : Patient recovered completely
+            Notes : No further treatment required
+            
+2026-07-02 17:06:40,240 | INFO | Updating Appointment ID : 51
+2026-07-02 17:06:40,245 | INFO | Appointment ID 51 updated successfully.
+2026-07-02 17:06:40,245 | INFO | Appointment 51 updated successfully.
+2026-07-02 17:06:40,245 | INFO | Completed Request -> PUT /appointments/appointments/51 | Status: 200 | Execution Time: 0.0074 sec
+2026-07-02 17:07:10,169 | INFO | Incoming Request -> POST /appointments/appointments
+2026-07-02 17:07:10,171 | INFO | Completed Request -> POST /appointments/appointments | Status: 401 | Execution Time: 0.0018 sec
+2026-07-02 17:07:16,959 | INFO | Incoming Request -> PUT /appointments/appointments/51
+2026-07-02 17:07:16,961 | INFO | Completed Request -> PUT /appointments/appointments/51 | Status: 401 | Execution Time: 0.0015 sec

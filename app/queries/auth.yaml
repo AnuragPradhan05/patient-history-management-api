@@ -1,0 +1,8 @@
+get_user_by_username: |
+  SELECT
+      user_id,
+      username,
+      password,
+      role
+  FROM users
+  WHERE username = ?

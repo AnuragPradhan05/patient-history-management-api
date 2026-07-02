@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydantic
+pyyaml
+python-jose[cryptography]
+python-multipart
